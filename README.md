@@ -3,6 +3,12 @@
 ## Objective
 Classify breast tumours as malignant or benign using machine learning, and interpret which features drive predictions.
 
+## Key Takeaways
+- Built a Random Forest model to classify breast tumours as malignant or benign
+- Achieved ~96% accuracy, F1-score ~0.95, ROC-AUC ~0.97
+- Most important features: mean radius, mean perimeter, mean concavity
+- SHAP analysis shows model decisions are interpretable and clinically relevant
+
 ## Dataset
 - Breast Cancer dataset from `sklearn.datasets`
 - 569 samples, 30 numerical features
